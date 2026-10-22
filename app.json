@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "HealthSakhi",
+    "slug": "health-sakhi-mobile-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.healthsakhi.app",
+      "softwareKeyboardLayoutMode": "resize",
+      "adaptiveIcon": {
+        "backgroundColor": "#FFFFFF",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "9a20349c-3486-4349-9e9d-ac8990d6ffbe"
+      }
+    },
+    "owner": "kiaans",
+    "plugins": [
+      "expo-sharing",
+      "expo-status-bar"
+    ]
+  }
+}
